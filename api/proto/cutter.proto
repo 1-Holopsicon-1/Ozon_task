@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package api;
+
+service Url_cutter{
+  rpc Create(OldUrl) returns (CutUrl) {}
+}
+
+message OldUrl{
+  string old_url = 1;
+}
+
+message CutUrl{
+  string new_url = 1;
+}
