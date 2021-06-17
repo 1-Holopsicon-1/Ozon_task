@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "github.com/1-Holopsicon-1/Ozon_task";
+option go_package = "github.com/1-Holopsicon-1/Ozon_task/api/proto";
 
 package api;
 
@@ -8,9 +8,9 @@ service Url_cutter{
 }
 
 message OldUrl{
-  string old_url = 1;
+  string oldUrl = 1;
 }
 
 message CutUrl{
-  string new_url = 1;
+  string newUrl = 1;
 }
