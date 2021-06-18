@@ -97,5 +97,5 @@ var UrlCutter_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "grpcserver.proto",
+	Metadata: "cutter.proto",
 }

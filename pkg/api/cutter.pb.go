@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.26.0
 // 	protoc        v3.17.3
-// source: grpcserver.proto
+// source: cutter.proto
 
 package proto
 

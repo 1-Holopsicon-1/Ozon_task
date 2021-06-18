@@ -1,9 +1,9 @@
 package main
 
 import (
-	"google.golang.org/grpc"
+	_ "google.golang.org/grpc"
 	"../pkg/grpcserver"
-	"../pkg/api"
+	_ "github.com/1-Holopsicon-1/Ozon_task/pkg/api"
 	"log"
 	"net"
 )
